@@ -5,18 +5,18 @@
     <Nullable>enable</Nullable>
     <RootNamespace>FluentMigrator.NHibernateGenerator.SF</RootNamespace>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageVersion>0.7.4</PackageVersion>
+    <PackageVersion>0.8.0</PackageVersion>
     <LangVersion>default</LangVersion>
-    <TargetFramework>net9.0</TargetFramework>
+    <TargetFramework>net10.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="FluentMigrator" Version="6.2.0" />
-    <PackageReference Include="FluentMigrator.Extensions.Postgres" Version="6.2.0" />
-    <PackageReference Include="FluentMigrator.Extensions.SqlServer" Version="6.2.0" />
-    <PackageReference Include="FluentMigrator.Tools" Version="6.2.0" />
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
-    <PackageReference Include="NHibernate" Version="5.5.2" />
+    <PackageReference Include="FluentMigrator" Version="7.2.0" />
+    <PackageReference Include="FluentMigrator.Extensions.Postgres" Version="7.2.0" />
+    <PackageReference Include="FluentMigrator.Extensions.SqlServer" Version="7.2.0" />
+    <PackageReference Include="FluentMigrator.Tools" Version="7.2.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+    <PackageReference Include="NHibernate" Version="5.6.0" />
     <PackageReference Include="System.Runtime" Version="4.3.1" />
     <PackageReference Include="System.Runtime.Extensions" Version="4.3.1" />
   </ItemGroup>
