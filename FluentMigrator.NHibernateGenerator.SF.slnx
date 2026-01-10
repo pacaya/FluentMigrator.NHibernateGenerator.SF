@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="FluentMigrator.NHibernateGenerator.SF.csproj">
+    <Deploy Solution="Release|*" />
+  </Project>
+</Solution>
